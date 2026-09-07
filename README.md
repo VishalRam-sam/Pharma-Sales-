@@ -9,7 +9,7 @@ Prepared by: Vishal Ram
 Date: June 2026
 
 
-##1. Project Overview
+#1. Project Overview
 The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provide a comprehensive view of sales performance, inventory management, supplier efficiency, and expiry risk monitoring. The goal was to deliver actionable insights that help improve operational efficiency, revenue growth, and decision-making.
 
 ##2. Problem Statement
