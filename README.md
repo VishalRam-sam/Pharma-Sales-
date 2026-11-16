@@ -8,23 +8,22 @@ Client: XYZ Pharmaceutical
 Prepared by: Vishal Ram
 Date: June 2026
 
-
-##1. Project Overview
+## 1. Project Overview
 The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provide a comprehensive view of sales performance, inventory management, supplier efficiency, and expiry risk monitoring. The goal was to deliver actionable insights that help improve operational efficiency, revenue growth, and decision-making.
 
-##2. Problem Statement
+## 2. Problem Statement
 1. Cipla faced challenges with disconnected data across sales, inventory, and supplier systems. 
 2. There was no unified view to track real-time stock levels, revenue planning, or product expiry. 
 3. Manual reporting led to delays, errors, and missed opportunities to optimize stock and improve supplier performance.
 
-##3. Project Objectives
+## 3. Project Objectives
 - Build a centralized Pharma Sales Dashboard using Power BI.
 - Track stock availability, revenue planning, and sales agent performance.
 - Proactively monitor drug expiry.
 - Optimize supplier performance tracking.
 - Deliver self-service analytics with dynamic filters and drill-downs.
-- 
-##4. Data Sources
+
+## 4. Data Sources
 - Sales Transactions (Sales Agent.xlsx)
 - Product Master (LinkedDrugs.xlsx)
 - Manufacturers (LinkedManufacturers.xlsx)
@@ -32,23 +31,23 @@ The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provi
 - Supplier Details (Supplier.xlsx)
 - Custom Date Table for time-based analysis
   
-##5. Data Model Design
-• Fact Table: Sales Agent (sales transactions)
-• Dimension Tables:
-  - LinkedDrugs (product info)
-  - LinkedManufacturers (manufacturer details)
-  - Inventory (stock levels)
-  - Supplier (supplier performance)
-  - Date Table (time intelligence)
+## 5. Data Model Design
+- Fact Table: Sales Agent (sales transactions)
+- Dimension Tables:
+- LinkedDrugs (product info)
+- LinkedManufacturers (manufacturer details)
+- Inventory (stock levels)
+- Supplier (supplier performance)
+- Date Table (time intelligence)
 
-Relationships:
+## Relationships:
 - Sales ↔ LinkedDrugs (via DrugID)
 - LinkedDrugs ↔ LinkedManufacturers (via ManufacturerID)
 - Inventory ↔ LinkedDrugs (via DrugID)
 - Inventory ↔ Supplier (via SupplierID)
 - Sales ↔ Date Table (via SaleDate)
   
-##6. Key DAX Measures
+## 6. Key DAX Measures
 • Stock Available = [Total Stock] - [Sold Stock] - [Returned Units]
 This metric tracks how much stock is currently available for sale after accounting for sales and returns.
 
@@ -62,14 +61,14 @@ This measure estimates potential future revenue based on the current available s
 • On-Time Delivery Rate = Average of Supplier’s delivery rate
 • Sales by Agent = Aggregates sales performance by individual sales agents, helping track top performers.
 
-##7. Dashboard Design & Insights
+## 7. Dashboard Design & Insights
 • Sales Overview: KPIs for Total Sales, Gross Profit, Net Sales, Revenue Planning, and Returned Units.
 • Inventory Snapshot: Tracks Stock Available, Total Stock, Sold Stock, and highlights drugs close to expiry.
 • Sales Agent Performance: Sales by agent with regional breakdown, showing contribution to total revenue.
 • Supplier Performance: On-time delivery rates and preferred supplier analysis.
 • Drug Shelf Life: Lists drugs nearing expiry in 12/18/24 months along with their stock and revenue risk.
 
-##8. Achievements in the Project
+## 8. Achievements in the Project
 • Reduced manual reporting time by 90% by automating dashboards in Power BI.
 • Provided real-time visibility into stock levels, leading to a 15% reduction in stockouts.
 • Improved revenue recovery by identifying $418K worth of expiring stock for clearance.
@@ -79,8 +78,8 @@ This measure estimates potential future revenue based on the current available s
 • After Power BI, client is monitoring every.
 • Empowered sales managers with Sales Agent performance data, improving productivity and sales strategies.
 
-##How "Reduced Manual Reporting Time by 90%" Was Achieved:
- Before Power BI (Manual Process):
+## How "Reduced Manual Reporting Time by 90%" Was Achieved:
+ #Before Power BI (Manual Process):
 •	Reports were generated manually using Excel, emails, and CSV files.
 •	Data from different sources (Sales, Inventory, Supplier, Product Master) had to be:
 o	Downloaded or requested manually.
@@ -92,20 +91,20 @@ o	Users spent 5–8 hours per report cycle creating sales reports, inventory sum
 •	THEY ARE ABLE TO SEE THE MONTHLY DATA/monthly update
 ________________________________________
 
-##After Power BI Automation:
-•	Connected Power BI directly to:
+## After Power BI Automation:
+•	Connected Power BI directly to.
 o	Excel files / SharePoint / Databases (if any).
-•	Applied all data cleaning steps in Power Query:
+•	Applied all data cleaning steps in Power Query.
 o	Automated removal of errors, junk rows, formatting, column renaming.
 •	Data Modeling connected Sales, Inventory, Suppliers, and Products using relationships (no VLOOKUP needed anymore).
 •	Created DAX Measures that calculate KPIs dynamically.
-•	Built interactive dashboards that:
+•	Built interactive dashboards that.
 o	Auto-refresh when data is updated.
 o	Allow users to filter by Region, Product, Sales Agent, etc., without manual intervention.
 •	Instead of 8 hours, reports now take 10–15 minutes to refresh and distribute.
-•	EVERY DAY THEY ARE ABLE TO SEE UPDATED REPORT/ daily update
+•	EVERY DAY THEY ARE ABLE TO SEE UPDATED REPORT/ daily update.
 
-##9. Challenges and Solutions
+## 9. Challenges and Solutions
 • Challenge: Incorrect totals in matrix reports.
   Solution: Applied SUMX functions for accurate aggregation.
 
@@ -118,10 +117,10 @@ o	Allow users to filter by Region, Product, Sales Agent, etc., without manual in
 • Challenge: Complex sales trends analysis.
   Solution: Integrated a custom Date table with Year, Quarter, and Month hierarchy.
   
-##10. Conclusion
+## 10. Conclusion
 The Pharma Sales Dashboard for XYZ Pharmaceutical delivered key operational improvements by providing a single source of truth for sales, inventory, supplier, and expiry management. The solution empowered business stakeholders with data-driven decision-making, optimized sales strategies, and improved overall supply chain efficiency.
 
-#Dashboard--
+## Dashboard --
 <img width="1377" height="767" alt="Screenshot 2026-11-16 172238" src="https://github.com/user-attachments/assets/93b3bba7-23e3-4d6f-ba27-8f0f98c240c0" />
 <img width="1432" height="810" alt="Screenshot 2026-11-16 172310" src="https://github.com/user-attachments/assets/cb859896-2ecf-4e9a-bfcc-fd7603268729" />
 <img width="1435" height="790" alt="Screenshot 2026-11-16 172329" src="https://github.com/user-attachments/assets/655578ed-f875-4adc-b88c-229313bfcd38" />
