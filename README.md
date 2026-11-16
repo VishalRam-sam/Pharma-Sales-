@@ -52,21 +52,20 @@ The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provi
 This metric tracks how much stock is currently available for sale after accounting for sales and returns.
 
 • Revenue Planning = Stock Available * Unit Price
-This measure estimates potential future revenue based on the current available stock and unit price.
-
-• Total Sales = SUM('Sales Agent'[Total Sales])
-• Gross Profit = Total Sales - SUMX('Sales Agent', UnitsSold * CostPerUnit)
-• Net Sales = Total Sales - (Returned Units * Average Unit Price)
-• Profit Margin % = Gross Profit / Total Sales
-• On-Time Delivery Rate = Average of Supplier’s delivery rate
-• Sales by Agent = Aggregates sales performance by individual sales agents, helping track top performers.
+ This measure estimates potential future revenue based on the current available stock and unit price.  
+• Total Sales = SUM('Sales Agent'[Total Sales])  
+• Gross Profit = Total Sales - SUMX('Sales Agent', UnitsSold * CostPerUnit)  
+• Net Sales = Total Sales - (Returned Units * Average Unit Price)  
+• Profit Margin % = Gross Profit / Total Sales  
+• On-Time Delivery Rate = Average of Supplier’s delivery rate  
+• Sales by Agent = Aggregates sales performance by individual sales agents, helping track top performers.  
 
 ## 7. Dashboard Design & Insights
-• Sales Overview: KPIs for Total Sales, Gross Profit, Net Sales, Revenue Planning, and Returned Units.
-• Inventory Snapshot: Tracks Stock Available, Total Stock, Sold Stock, and highlights drugs close to expiry.
-• Sales Agent Performance: Sales by agent with regional breakdown, showing contribution to total revenue.
-• Supplier Performance: On-time delivery rates and preferred supplier analysis.
-• Drug Shelf Life: Lists drugs nearing expiry in 12/18/24 months along with their stock and revenue risk.
+• Sales Overview: KPIs for Total Sales, Gross Profit, Net Sales, Revenue Planning, and Returned Units.  
+• Inventory Snapshot: Tracks Stock Available, Total Stock, Sold Stock, and highlights drugs close to expiry.  
+• Sales Agent Performance: Sales by agent with regional breakdown, showing contribution to total revenue.  
+• Supplier Performance: On-time delivery rates and preferred supplier analysis.  
+• Drug Shelf Life: Lists drugs nearing expiry in 12/18/24 months along with their stock and revenue risk.  
 
 ## 8. Achievements in the Project
 • Reduced manual reporting time by 90% by automating dashboards in Power BI.
