@@ -1,29 +1,29 @@
-## Pharma-Sales-Project
+# Pharma-Sales-Project
 This is my first Git Repository.
 <br>
-# Author- Vishal Ram
+## Author- Vishal Ram
 
-# Pharma Sales Dashboard – Project Documentation 
+## Pharma Sales Dashboard – Project Documentation 
 Client: XYZ Pharmaceutical
 Prepared by: Vishal Ram
 Date: June 2026
 
-# 1. Project Overview
+## 1. Project Overview
 The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provide a comprehensive view of sales performance, inventory management, supplier efficiency, and expiry risk monitoring. The goal was to deliver actionable insights that help improve operational efficiency, revenue growth, and decision-making.
 
-# 2. Problem Statement
+## 2. Problem Statement
 1. Cipla faced challenges with disconnected data across sales, inventory, and supplier systems. 
 2. There was no unified view to track real-time stock levels, revenue planning, or product expiry. 
 3. Manual reporting led to delays, errors, and missed opportunities to optimize stock and improve supplier performance.
 
-# 3. Project Objectives
+## 3. Project Objectives
 - Build a centralized Pharma Sales Dashboard using Power BI.
 - Track stock availability, revenue planning, and sales agent performance.
 - Proactively monitor drug expiry.
 - Optimize supplier performance tracking.
 - Deliver self-service analytics with dynamic filters and drill-downs.
 
-# 4. Data Sources
+## 4. Data Sources
 - Sales Transactions (Sales Agent.xlsx)
 - Product Master (LinkedDrugs.xlsx)
 - Manufacturers (LinkedManufacturers.xlsx)
@@ -31,7 +31,7 @@ The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provi
 - Supplier Details (Supplier.xlsx)
 - Custom Date Table for time-based analysis
   
-# 5. Data Model Design
+## 5. Data Model Design
 - Fact Table: Sales Agent (sales transactions)
 - Dimension Tables:
 - LinkedDrugs (product info)
@@ -40,14 +40,14 @@ The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provi
 - Supplier (supplier performance)
 - Date Table (time intelligence)
 
-# Relationships:
+## Relationships:
 - Sales ↔ LinkedDrugs (via DrugID)
 - LinkedDrugs ↔ LinkedManufacturers (via ManufacturerID)
 - Inventory ↔ LinkedDrugs (via DrugID)
 - Inventory ↔ Supplier (via SupplierID)
 - Sales ↔ Date Table (via SaleDate)
   
-# 6. Key DAX Measures
+## 6. Key DAX Measures
 • Stock Available = [Total Stock] - [Sold Stock] - [Returned Units]
 This metric tracks how much stock is currently available for sale after accounting for sales and returns.
 
@@ -60,14 +60,14 @@ This metric tracks how much stock is currently available for sale after accounti
 • On-Time Delivery Rate = Average of Supplier’s delivery rate  
 • Sales by Agent = Aggregates sales performance by individual sales agents, helping track top performers.  
 
-# 7. Dashboard Design & Insights
+## 7. Dashboard Design & Insights
 • Sales Overview: KPIs for Total Sales, Gross Profit, Net Sales, Revenue Planning, and Returned Units.  
 • Inventory Snapshot: Tracks Stock Available, Total Stock, Sold Stock, and highlights drugs close to expiry.  
 • Sales Agent Performance: Sales by agent with regional breakdown, showing contribution to total revenue.  
 • Supplier Performance: On-time delivery rates and preferred supplier analysis.  
 • Drug Shelf Life: Lists drugs nearing expiry in 12/18/24 months along with their stock and revenue risk.  
 
-# 8. Achievements in the Project
+## 8. Achievements in the Project
 • Reduced manual reporting time by 90% by automating dashboards in Power BI.  
 • Provided real-time visibility into stock levels, leading to a 15% reduction in stockouts.  
 • Improved revenue recovery by identifying $418K worth of expiring stock for clearance.  
@@ -77,8 +77,8 @@ This metric tracks how much stock is currently available for sale after accounti
 • After Power BI, client is monitoring every.  
 • Empowered sales managers with Sales Agent performance data, improving productivity and sales strategies.  
 
-# How "Reduced Manual Reporting Time by 90%" Was Achieved:  
-# Before Power BI (Manual Process):  
+## How "Reduced Manual Reporting Time by 90%" Was Achieved:  
+## Before Power BI (Manual Process):  
  
 •	Reports were generated manually using Excel, emails, and CSV files.  
 •	Data from different sources (Sales, Inventory, Supplier, Product Master) had to be Downloaded or requested manually.  
