@@ -120,11 +120,14 @@ o	Allow users to filter by Region, Product, Sales Agent, etc., without manual in
 The Pharma Sales Dashboard for XYZ Pharmaceutical delivered key operational improvements by providing a single source of truth for sales, inventory, supplier, and expiry management. The solution empowered business stakeholders with data-driven decision-making, optimized sales strategies, and improved overall supply chain efficiency.
 
 Dashboard--
- <img width="1418" height="917" alt="Screenshot 2026-09-29 235942" src="https://github.com/user-attachments/assets/dc237497-8991-49f0-9aab-9a092a19be33" />
-<img width="1430" height="922" alt="Screenshot 2026-09-30 000156" src="https://github.com/user-attachments/assets/7e55e803-7a75-47e3-a8e1-d58e2240326d" />
-<img width="1418" height="906" alt="Screenshot 2026-09-30 000221" src="https://github.com/user-attachments/assets/51cc713e-7a65-4ce0-9dcb-ae83cdce4f07" />
-<img width="1418" height="906" alt="Screenshot 2026-09-30 000221" src="https://github.com/user-attachments/assets/7f9fdcfd-f342-420e-9c5c-da8292313cdf" />
-<img width="1432" height="931" alt="Screenshot 2026-09-30 000309" src="https://github.com/user-attachments/assets/b371550c-1d6f-43a4-b8f1-ebf753a2728f" />
-<img width="1410" height="912" alt="Screenshot 2026-09-30 000251" src="https://github.com/user-attachments/assets/87860c90-f358-4a79-8cb4-cfba4ba5e339" />
+<img width="1377" height="767" alt="Screenshot 2026-11-16 172238" src="https://github.com/user-attachments/assets/93b3bba7-23e3-4d6f-ba27-8f0f98c240c0" />
+<img width="1432" height="810" alt="Screenshot 2026-11-16 172310" src="https://github.com/user-attachments/assets/cb859896-2ecf-4e9a-bfcc-fd7603268729" />
+<img width="1435" height="790" alt="Screenshot 2026-11-16 172329" src="https://github.com/user-attachments/assets/655578ed-f875-4adc-b88c-229313bfcd38" />
+<img width="1430" height="783" alt="Screenshot 2026-11-16 172346" src="https://github.com/user-attachments/assets/9e5c231f-4433-48d8-91df-26de7932bbef" />
+<img width="1431" height="791" alt="Screenshot 2026-11-16 172408" src="https://github.com/user-attachments/assets/b7a2b6e1-9869-4193-9ee8-a402e3ad602b" />
+<img width="1426" height="792" alt="Screenshot 2026-11-16 172425" src="https://github.com/user-attachments/assets/88da7008-2659-45ce-87ad-153791ba4ff2" />
+<img width="1432" height="785" alt="Screenshot 2026-11-16 172444" src="https://github.com/user-attachments/assets/c252f740-1b57-490a-9530-296d985c32bc" />
+
+
 
 
