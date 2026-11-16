@@ -68,56 +68,53 @@ This metric tracks how much stock is currently available for sale after accounti
 • Drug Shelf Life: Lists drugs nearing expiry in 12/18/24 months along with their stock and revenue risk.  
 
 ## 8. Achievements in the Project
-• Reduced manual reporting time by 90% by automating dashboards in Power BI.
-• Provided real-time visibility into stock levels, leading to a 15% reduction in stockouts.
-• Improved revenue recovery by identifying $418K worth of expiring stock for clearance.
-• Enhanced supplier accountability with on-time delivery monitoring.
-• Delivered a scalable, user-friendly dashboard with drill-through analysis for management.
-• Usually excel is refreshed every month. Monthly they used to monitor.
-• After Power BI, client is monitoring every.
-• Empowered sales managers with Sales Agent performance data, improving productivity and sales strategies.
+• Reduced manual reporting time by 90% by automating dashboards in Power BI.  
+• Provided real-time visibility into stock levels, leading to a 15% reduction in stockouts.  
+• Improved revenue recovery by identifying $418K worth of expiring stock for clearance.  
+• Enhanced supplier accountability with on-time delivery monitoring.  
+• Delivered a scalable, user-friendly dashboard with drill-through analysis for management.  
+• Usually excel is refreshed every month. Monthly they used to monitor.  
+• After Power BI, client is monitoring every.  
+• Empowered sales managers with Sales Agent performance data, improving productivity and sales strategies.  
 
-## How "Reduced Manual Reporting Time by 90%" Was Achieved:
- #Before Power BI (Manual Process):
-•	Reports were generated manually using Excel, emails, and CSV files.
-•	Data from different sources (Sales, Inventory, Supplier, Product Master) had to be:
+## How "Reduced Manual Reporting Time by 90%" Was Achieved:  
+ # Before Power BI (Manual Process):  
+ 
+•	Reports were generated manually using Excel, emails, and CSV files.  
+•	Data from different sources (Sales, Inventory, Supplier, Product Master) had to be:  
 o	Downloaded or requested manually.
 o	Cleaned (removing extra headers, fixing dates, correcting mismatched entries).
-o	Manually merged using VLOOKUPs, Pivot Tables, and Formulas in Excel.
-•	Every month or week:
-o	Users spent 5–8 hours per report cycle creating sales reports, inventory summaries, supplier performance reports, and stock expiry reports.
-•	Any update (e.g., new sales data) required redoing this entire process.
-•	THEY ARE ABLE TO SEE THE MONTHLY DATA/monthly update
+o	Manually merged using VLOOKUPs, Pivot Tables, and Formulas in Excel Every month or week Users spent 5–8 hours per report cycle creating sales reports, inventory summaries, supplier performance reports, and stock expiry reports.  
+•	Any update (e.g., new sales data) required redoing this entire process.  
+•	They are able to see the monthly data / monthly update.
 ________________________________________
 
 ## After Power BI Automation:
-•	Connected Power BI directly to.
-o	Excel files / SharePoint / Databases (if any).
-•	Applied all data cleaning steps in Power Query.
-o	Automated removal of errors, junk rows, formatting, column renaming.
-•	Data Modeling connected Sales, Inventory, Suppliers, and Products using relationships (no VLOOKUP needed anymore).
-•	Created DAX Measures that calculate KPIs dynamically.
-•	Built interactive dashboards that.
-o	Auto-refresh when data is updated.
-o	Allow users to filter by Region, Product, Sales Agent, etc., without manual intervention.
-•	Instead of 8 hours, reports now take 10–15 minutes to refresh and distribute.
-•	EVERY DAY THEY ARE ABLE TO SEE UPDATED REPORT/ daily update.
+•	Connected Power BI directly to Excel files / SharePoint / Databases (if any).  
+•	Applied all data cleaning steps in Power Query.  
+o	Automated removal of errors, junk rows, formatting, column renaming.  
+•	Data Modeling connected Sales, Inventory, Suppliers, and Products using relationships (no VLOOKUP needed anymore).  
+•	Created DAX Measures that calculate KPIs dynamically.  
+•	Built interactive dashboards that Auto-refresh when data is updated.  
+o	Allow users to filter by Region, Product, Sales Agent, etc., without manual intervention.  
+•	Instead of 8 hours, reports now take 10–15 minutes to refresh and distribute.  
+•	Every day they are able to see updated report / daily update.  
 
 ## 9. Challenges and Solutions
-• Challenge: Incorrect totals in matrix reports.
-  Solution: Applied SUMX functions for accurate aggregation.
+• Challenge: Incorrect totals in matrix reports.  
+  Solution: Applied SUMX functions for accurate aggregation.  
 
-• Challenge: Return handling affecting revenue calculations.
-  Solution: Built Net Sales DAX measure that subtracts returned units from total sales.
+• Challenge: Return handling affecting revenue calculations.  
+  Solution: Built Net Sales DAX measure that subtracts returned units from total sales.  
 
-• Challenge: No expiry tracking mechanism.
-  Solution: Implemented expiry calculation using DATEDIFF and conditional measures.
+• Challenge: No expiry tracking mechanism.  
+  Solution: Implemented expiry calculation using DATEDIFF and conditional measures.  
 
-• Challenge: Complex sales trends analysis.
-  Solution: Integrated a custom Date table with Year, Quarter, and Month hierarchy.
+• Challenge: Complex sales trends analysis.  
+  Solution: Integrated a custom Date table with Year, Quarter, and Month hierarchy.  
   
-## 10. Conclusion
-The Pharma Sales Dashboard for XYZ Pharmaceutical delivered key operational improvements by providing a single source of truth for sales, inventory, supplier, and expiry management. The solution empowered business stakeholders with data-driven decision-making, optimized sales strategies, and improved overall supply chain efficiency.
+## 10. Conclusion  
+The Pharma Sales Dashboard for XYZ Pharmaceutical delivered key operational improvements by providing a single source of truth for sales, inventory, supplier, and expiry management. The solution empowered business stakeholders with data-driven decision-making, optimized sales strategies, and improved overall supply chain efficiency.  
 
 ## Dashboard --
 <img width="1377" height="767" alt="Screenshot 2026-11-16 172238" src="https://github.com/user-attachments/assets/93b3bba7-23e3-4d6f-ba27-8f0f98c240c0" />
