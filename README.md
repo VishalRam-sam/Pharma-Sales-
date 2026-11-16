@@ -119,6 +119,12 @@ o	Allow users to filter by Region, Product, Sales Agent, etc., without manual in
 ##10. Conclusion
 The Pharma Sales Dashboard for XYZ Pharmaceutical delivered key operational improvements by providing a single source of truth for sales, inventory, supplier, and expiry management. The solution empowered business stakeholders with data-driven decision-making, optimized sales strategies, and improved overall supply chain efficiency.
 
+Dashboard--
+ <img width="1418" height="917" alt="Screenshot 2026-09-29 235942" src="https://github.com/user-attachments/assets/dc237497-8991-49f0-9aab-9a092a19be33" />
+<img width="1430" height="922" alt="Screenshot 2026-09-30 000156" src="https://github.com/user-attachments/assets/7e55e803-7a75-47e3-a8e1-d58e2240326d" />
+<img width="1418" height="906" alt="Screenshot 2026-09-30 000221" src="https://github.com/user-attachments/assets/51cc713e-7a65-4ce0-9dcb-ae83cdce4f07" />
+<img width="1418" height="906" alt="Screenshot 2026-09-30 000221" src="https://github.com/user-attachments/assets/7f9fdcfd-f342-420e-9c5c-da8292313cdf" />
+<img width="1432" height="931" alt="Screenshot 2026-09-30 000309" src="https://github.com/user-attachments/assets/b371550c-1d6f-43a4-b8f1-ebf753a2728f" />
+<img width="1410" height="912" alt="Screenshot 2026-09-30 000251" src="https://github.com/user-attachments/assets/87860c90-f358-4a79-8cb4-cfba4ba5e339" />
 
- 
 
