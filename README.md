@@ -1,19 +1,21 @@
-# Pharma-Sales-
+## Pharma-Sales-Project
 This is my first Git Repository.
 <br>
-Author- Vishal Ram
+#Author- Vishal Ram
 
-Pharma Sales Dashboard – Project Documentation 
+#Pharma Sales Dashboard – Project Documentation 
 Client: XYZ Pharmaceutical
 Prepared by: Vishal Ram
 Date: June 2026
 
 
-#1. Project Overview
+##1. Project Overview
 The Pharma Sales Dashboard project was developed for XYZ Pharmaceutical to provide a comprehensive view of sales performance, inventory management, supplier efficiency, and expiry risk monitoring. The goal was to deliver actionable insights that help improve operational efficiency, revenue growth, and decision-making.
 
 ##2. Problem Statement
-Cipla faced challenges with disconnected data across sales, inventory, and supplier systems. There was no unified view to track real-time stock levels, revenue planning, or product expiry. Manual reporting led to delays, errors, and missed opportunities to optimize stock and improve supplier performance.
+1. Cipla faced challenges with disconnected data across sales, inventory, and supplier systems. 
+2. There was no unified view to track real-time stock levels, revenue planning, or product expiry. 
+3. Manual reporting led to delays, errors, and missed opportunities to optimize stock and improve supplier performance.
 
 ##3. Project Objectives
 - Build a centralized Pharma Sales Dashboard using Power BI.
@@ -73,8 +75,8 @@ This measure estimates potential future revenue based on the current available s
 • Improved revenue recovery by identifying $418K worth of expiring stock for clearance.
 • Enhanced supplier accountability with on-time delivery monitoring.
 • Delivered a scalable, user-friendly dashboard with drill-through analysis for management.
-Usually excel is refreshed every month. Monthly they use to monitor.
-After Power BI , client is monitoring every.
+• Usually excel is refreshed every month. Monthly they used to monitor.
+• After Power BI, client is monitoring every.
 • Empowered sales managers with Sales Agent performance data, improving productivity and sales strategies.
 
 ##How "Reduced Manual Reporting Time by 90%" Was Achieved:
@@ -119,7 +121,7 @@ o	Allow users to filter by Region, Product, Sales Agent, etc., without manual in
 ##10. Conclusion
 The Pharma Sales Dashboard for XYZ Pharmaceutical delivered key operational improvements by providing a single source of truth for sales, inventory, supplier, and expiry management. The solution empowered business stakeholders with data-driven decision-making, optimized sales strategies, and improved overall supply chain efficiency.
 
-Dashboard--
+#Dashboard--
 <img width="1377" height="767" alt="Screenshot 2026-11-16 172238" src="https://github.com/user-attachments/assets/93b3bba7-23e3-4d6f-ba27-8f0f98c240c0" />
 <img width="1432" height="810" alt="Screenshot 2026-11-16 172310" src="https://github.com/user-attachments/assets/cb859896-2ecf-4e9a-bfcc-fd7603268729" />
 <img width="1435" height="790" alt="Screenshot 2026-11-16 172329" src="https://github.com/user-attachments/assets/655578ed-f875-4adc-b88c-229313bfcd38" />
